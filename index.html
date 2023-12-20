@@ -3,11 +3,338 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="quang hai" />
     <title>Quang Hai Bai1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div id="root">
-      <h1>Nguyen Quang Hai</h1>
+      <!-- header -->
+      <header class="header">
+        <div class="container wrap-content-header">
+          <!-- navigation -->
+          <nav class="header--nav">
+            <a href="#" class="header--nav__logo">FashionHub</a>
+            <ul class="header--nav-ul">
+              <li class="header--nav-li">
+                <a href="#" class="header--nav-link">Category</a>
+              </li>
+              <li class="header--nav-li">
+                <a href="#" class="header--nav-link">Brand</a>
+              </li>
+              <li class="header--nav-li">
+                <a href="#" class="header--nav-link">Contact</a>
+              </li>
+              <li class="header--nav-li">
+                <a href="#" class="header--nav-link">FAQ’s</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- tools -->
+          <div class="header--tools">
+            <div class="header--tools__item header--tools__item-cart">
+              <img
+                src="img/icon_cart.png"
+                alt="icon cart"
+                class="header--tools__icon"
+              />
+              <span class="header--tools__item-cart-bade">3</span>
+            </div>
+            <div class="header--tools__item header--tools__item-bell">
+              <img src="img/icon_bell.png" alt="icon bell" />
+              <span class="header--tools__item-bell-bade"></span>
+            </div>
+            <div class="header--tools__avartar">
+              <img src="img/avartar.png" alt="avartar" class="img" />
+
+              <div class="header--tools__avartar-name">
+                <h5 class="text-1">Good Morning!</h5>
+                <h5 class="text-2">Scarlet Johnson</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main class="container main">
+        <!-- info products -->
+        <div class="wrap-infor-prodcuts">
+          <!-- slider -->
+          <div class="slider">
+            <img src="img/img_product1.png" alt="mau anh" class="img" />
+            <div class="content-slider">
+              <ul class="content-slider-ul">
+                <li class="content-slider-li">
+                  <img
+                    src="img/slider1.png"
+                    alt="slider"
+                    class="content-slider-img"
+                  />
+                </li>
+                <li class="content-slider-li">
+                  <img
+                    src="img/slider2.png"
+                    alt="slider"
+                    class="content-slider-img"
+                  />
+                </li>
+                <li class="content-slider-li">
+                  <img
+                    src="img/slider3.png"
+                    alt="slider"
+                    class="content-slider-img"
+                  />
+                </li>
+                <li class="content-slider-li">
+                  <img
+                    src="img/slider4.png"
+                    alt="slider"
+                    class="content-slider-img"
+                  />
+                </li>
+
+                <!-- btn prev, next -->
+                <div class="content-slider-btn">
+                  <img
+                    src="img/icon-prev.png"
+                    alt="icon prev"
+                    class="btn-prev btn"
+                  />
+                  <img
+                    src="img/icon-next.png"
+                    alt="icon next"
+                    class="btn-next btn"
+                  />
+                </div>
+              </ul>
+            </div>
+          </div>
+
+          <!-- details -->
+          <div class="content">
+            <div class="content-header">
+              <!-- breadcrumb -->
+              <div class="breadcrumb">
+                <ul class="breadcrumb-ul">
+                  <li class="breadcrumb-li"><span>Home</span></li>
+                  <li class="breadcrumb-li">
+                    <img src="img/arrow-right.png" alt="arrow" />
+                  </li>
+                  <li class="breadcrumb-li"><span>Decoration</span></li>
+                  <li class="breadcrumb-li">
+                    <img src="img/arrow-right.png" alt="arrow" />
+                  </li>
+                  <li class="breadcrumb-li"><span>Furniture</span></li>
+                  <li class="breadcrumb-li">
+                    <img src="img/arrow-right.png" alt="arrow" />
+                  </li>
+                  <li class="breadcrumb-li"><span>Storage</span></li>
+                  <li class="breadcrumb-li">
+                    <img src="img/arrow-right.png" alt="arrow" />
+                  </li>
+                  <li class="breadcrumb-li breadcrumb-li-active">
+                    <span>Sideboard</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="name-product">
+                <div class="name-product-title">
+                  <h1 class="name-product-text1">Embrace Sideboard</h1>
+                  <span class="name-product-text2">Teixeira Design Studio</span>
+                </div>
+                <div class="name-product-tools">
+                  <div class="favarite">
+                    <img src="img/icon_tim.png" alt="icon favarite" />
+                    <strong class="favarite-text">109</strong>
+                  </div>
+                  <div class="save">
+                    <img src="img/icon_save.png" alt="icon save" />
+                  </div>
+                  <div class="save">
+                    <img src="./img/icon_share.png" alt="icon share" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- price -->
+            <div class="content-price">
+              <div class="price">
+                <strong class="price-new">$71.56</strong>
+                <span class="price-old">$71.56</span>
+              </div>
+              <div class="comment">
+                <div class="comment-star">
+                  <div class="icon-start">
+                    <img src="img/icon-start.png" alt="icon star" />
+                    <strong class="text">4.8</strong>
+                  </div>
+                  <div class="icon-commnet">
+                    <img src="img/icon-comment.png" alt="icon comment" />
+                    <strong class="text">67 Reviews</strong>
+                  </div>
+                </div>
+                <div class="comment-text">
+                  <p>
+                    <strong class="comment-text__active">93% </strong>of buyers
+                    have recommended this
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- choose color -->
+            <div class="choose-color">
+              <span class="choose-color_title">Choose a Color</span>
+              <ul class="choose-color-ul">
+                <li class="choose-color-li">
+                  <img
+                    src="img/choose-color1.png"
+                    alt="choose color"
+                    class="choose-color-img"
+                  />
+                </li>
+                <li class="choose-color-li">
+                  <img
+                    src="img/choose-color2.png"
+                    alt="choose color"
+                    class="choose-color-img"
+                  />
+                </li>
+                <li class="choose-color-li">
+                  <img
+                    src="img/choose-color3.png"
+                    alt="choose color"
+                    class="choose-color-img"
+                  />
+                </li>
+                <li class="choose-color-li">
+                  <img
+                    src="img/choose-color4.png"
+                    alt="choose color"
+                    class="choose-color-img"
+                  />
+                </li>
+                <li class="choose-color-li">
+                  <img
+                    src="img/choose-color5.png"
+                    alt="choose color"
+                    class="choose-color-img"
+                  />
+                </li>
+              </ul>
+            </div>
+            <!-- choose size -->
+            <div class="choose-size">
+              <span class="choose-size-title">Choose a Size</span>
+              <ul class="choose-size-ul">
+                <li class="choose-size-li">
+                  <input
+                    type="radio"
+                    name="radio"
+                    class="choose-size-input"
+                    checked
+                    id="ip1"
+                  />
+                  <label
+                    for="ip1"
+                    class="choose-size-text choose-size-text-active"
+                    >Small</label
+                  >
+                </li>
+                <li class="choose-size-li">
+                  <input
+                    type="radio"
+                    name="radio"
+                    class="choose-size-input"
+                    id="ip2"
+                  />
+                  <label for="ip2" class="choose-size-text">Medium</label>
+                </li>
+                <li class="choose-size-li">
+                  <input
+                    type="radio"
+                    name="radio"
+                    class="choose-size-input"
+                    id="ip3"
+                  />
+                  <label for="ip3" class="choose-size-text">Large</label>
+                </li>
+                <li class="choose-size-li">
+                  <input
+                    type="radio"
+                    name="radio"
+                    class="choose-size-input"
+                    id="ip4"
+                  />
+                  <label for="ip4" class="choose-size-text">Extra Large</label>
+                </li>
+                <li class="choose-size-li">
+                  <input
+                    type="radio"
+                    name="radio"
+                    class="choose-size-input"
+                    id="ip5"
+                  />
+                  <label for="ip5" class="choose-size-text">XXL</label>
+                </li>
+              </ul>
+            </div>
+            <!-- btn buy product -->
+            <div class="wrap-content-buy-products">
+              <div class="quantity">
+                <div class="sum-quantity">
+                  <span class="remove">-</span>
+                  <span class="number">5</span>
+                  <span class="add">+</span>
+                </div>
+
+                <button class="btn-add-cart">
+                  <img src="img/icon-cart.png" alt="icon cart" class="icon" />
+                  <span class="text">Add To Cart</span>
+                </button>
+              </div>
+
+              <div class="info-shipper">
+                <div class="free-delivery free-delivery-1">
+                  <img src="img/icon-car.png" alt="icon car" class="icon" />
+                  <div class="text">
+                    <h4 class="text-header">Free Delivery</h4>
+                    <a class="text-des" href="#">
+                      Enter your Postal code for Delivery Availability</a
+                    >
+                  </div>
+                </div>
+                <div class="free-delivery">
+                  <img src="img/icon-cart2.png" alt="icon car" />
+                  <div class="text">
+                    <h4 class="text-header">Return Delivery</h4>
+                    <span class="text-description-return"
+                      >Free 30 days Delivery Return.
+                      <a href="#" class="text-description-return-active"
+                        >Details</a
+                      ></span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <h2>ND Footer</h2>
+      </footer>
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
